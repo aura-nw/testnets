@@ -1,8 +1,7 @@
 # Network Information
 - **Launch date**: 2021-12-29
 - **Chain-ID**: `aura-testnet`
-- **Genesis File:** `https://github.com/cosmos/testnets/raw/master/v7-Theta/public-testnet/genesis.json.gz`
-- **Genesis sha256sum**: `522d7e5227ca35ec9bbee5ab3fe9d43b61752c6bdbb9e7996b38307d7362bb7e`
+- **Genesis File:** `https://github.com/aura-nw/testnets/blob/main/testnet/genesis.json`
 - **Block Explorer**: https://explorer.aura.network/
 - **Faucet**: Please ask in the `#aura-faucet` channel in the Aura Developer discord
 - **Public Endpoints**:
