@@ -1,0 +1,2 @@
+# testnets
+Aura testnets
