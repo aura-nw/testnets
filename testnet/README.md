@@ -5,8 +5,8 @@
 - **Block Explorer**: https://explorer.aura.network/
 - **Faucet**: Please ask in the `#aura-faucet` channel in the Aura Developer discord
 - **Public Endpoints**:
-  - RPC: `https://rpc-testnet.aura.network`
-  - REST:`https://tendermint-testnet.aura.network`
+  - LCD: `https://lcd.test.aura.network`
+  - RPC:`https://rpc.test.aura.network`
 - **Seeds**:
 ```
 42f0c254710b2b22c67555ff4c2ad7e1390b5965@34.203.177.141:26656
