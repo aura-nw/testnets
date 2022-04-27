@@ -1,7 +1,7 @@
 # Network Information
 - **Launch date**: 2022-04-27
 - **Chain-ID**: `serenity-testnet-001`
-- **Genesis File:** `xxx`
+- **Genesis File:** `https://github.com/aura-nw/testnets/blob/main/serenity-testnet/genesis.json`
 - **Block Explorer**: `https://serenity.aurascan.io`
 - **Faucet**: Please ask in the `#aura-faucet` channel in the `xxx` discord
 - **Public Endpoints**:
