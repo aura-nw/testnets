@@ -9,11 +9,11 @@
   - RPC:`https://rpc.serenity.aura.network`
 - **Seeds**:
 ```
-xxx
+bf5ce6ee98541e2a4f1cb7b5f55f7ad6554bdced@18.138.89.226:26656
 ```
 - **RPC servers for State Sync configuration**:
 ```
-xxx
+https://rpc.serenity.aura.network:443
 ```
 - **Recommended hardware requirements**:
 
