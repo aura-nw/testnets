@@ -8,7 +8,7 @@ If you have good suggestions, there are several channels where we are online alm
 - Twitter: [EledraNguyen](https://twitter.com/EledraNguyen)
 - If you have access to the shared version of the document on Google docs, please just comment on it.
 
-<mark>TL;DR<mark>
+**TL;DR**
 
 - Euphoria is Aura Network staging environment before launching mainnet.
 - 50 validators limit, selection criterias are defined by Aura team.
@@ -46,7 +46,7 @@ The point of incentivization is not about making money during the time of the pr
 In order to participate in the IVP, validators must pass these following requirements:
 
 - Participating in our KYC process. The KYC process is to make sure people don’t cheat the system by running multiple validator instances as well as ensuring that we aren't involved with criminal activities.
-- As indicated by our lawyers, citizens of the US, mainland China or any UN sanctioned countries are <mark>NOT eligible</mark> to participate in the program as we cannot airdrop tokens to citizens of these countries.
+- As indicated by our lawyers, citizens of the US, mainland China or any UN sanctioned countries are **NOT eligible** to participate in the program as we cannot airdrop tokens to citizens of these countries.
 
 Demonstrate their capability in running a proof-of-stake validator node by providing their existing portfolio. We are very open to work with reputable Cosmos validators, but if you are experienced in other types of popular blockchain networks, it is acceptable.
 Additionally, there can be exception if the validator is either:
@@ -57,7 +57,7 @@ Additionally, there can be exception if the validator is either:
 Validators who complete the qualification process will become **Qualified Validators** and will be eligible for our airdrop process in the IVP to be included in the active set at the genesis block of Euphoria.
 
 ### 2.2. Selection Criteria
-The initial maximum slot for the active set of Euphoria is <mark>50</mark>, thus there should be criteria for selecting participants if the number of qualified validators is greater than 50. The final result is decided by the Aura team, taking into account the consultation of partners and major validators that we handpicked. However, we will try to maximize the diversity of the validator set in terms of:
+The initial maximum slot for the active set of Euphoria is **50**, thus there should be criteria for selecting participants if the number of qualified validators is greater than 50. The final result is decided by the Aura team, taking into account the consultation of partners and major validators that we handpicked. However, we will try to maximize the diversity of the validator set in terms of:
 
 - Experience in the Cosmos ecosystem.
 - Recommendation of Aura’s partners or already bought our tokens.
@@ -69,11 +69,11 @@ We will also try to reserve some slots for Independent validators if they can de
 
 ### 2.3. Schedule
 
-Validators have 2 weeks to complete the KYC process, starting from: <mark>TBD</mark>
+Validators have 2 weeks to complete the KYC process, starting from: **TBD**
 
 The KYC process is carried out by [Synaps](https://synaps.io/), a reputable KYC service provider who has provided services for 
 
-After completing KYC and collecting genesis resources, Euphoria network can be launched at: <mark>TBD</mark>
+After completing KYC and collecting genesis resources, Euphoria network can be launched at: **TBD**
 
 The IVP is expected to last until Aura Network launches its mainnet by early Q4 2022.
 
@@ -85,8 +85,8 @@ Selected validators for the IVP are required to participate in launching and ope
 
 - Participating in all network activities that are announced by the Aura Network team. Details are in part 3 of this document.
 - Maintaining Aura nodes to ensure a healthy network. 
-- For each validator node, we expect there will be no more than <mark>3 downtime slash events in each month</mark>. The configuration for slashing threshold is <mark>500 missed blocks over a window of 10000 blocks</mark>. For a double sign fault, the validator will be removed immediately from the IVP.
-- Also, the total time spent for recovering a node from jail to unjail status in a month should be no more than <mark>36 hours</mark>.
+- For each validator node, we expect there will be no more than **3 downtime slash events in each month**. The configuration for slashing threshold is **500 missed blocks over a window of 10000 blocks**. For a double sign fault, the validator will be removed immediately from the IVP.
+- Also, the total time spent for recovering a node from jail to unjail status in a month should be no more than **36 hours**.
 - These conditions only apply in time that there is no error on the software provided by the Aura Network team that prevents a validator from running.
 
 If a validator fails to deliver these requirements, they should be removed from the IVP and we will arrange the vacant slot for the next in-line validator who has passed KYC but has not been selected. However, if the failed validator can clearly explain their problem, we will conduct a vote for the rest of the validator set to decide whether to retain the status of the failed one.  
