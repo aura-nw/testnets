@@ -69,7 +69,7 @@ We will also try to reserve some slots for Independent validators if they can de
 
 ### 2.3. Schedule
 
-Validators have 2 weeks to complete the KYC process, starting from: **TBD**
+Validators have 2 weeks to complete the KYC process, starting from: **22 June 2022**
 
 The KYC process is carried out by [Synaps](https://synaps.io/), a reputable KYC service provider who has provided services for 
 
