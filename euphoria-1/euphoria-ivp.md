@@ -46,7 +46,7 @@ The point of incentivization is not about making money during the time of the pr
 In order to participate in the IVP, validators must pass these following requirements:
 
 - Participating in our KYC process. The KYC process is to make sure people don’t cheat the system by running multiple validator instances as well as ensuring that we aren't involved with criminal activities.
-- As indicated by our lawyers, citizens of the US, mainland China or any UN sanctioned countries are **NOT eligible** to participate in the program as we cannot airdrop tokens to citizens of these countries.
+- Citizens of any UN sanctioned countries (Afghanistan, Cuba, Iran, North Korea and Syria) are **NOT eligible** to participate in the program. 
 
 Demonstrate their capability in running a proof-of-stake validator node by providing their existing portfolio. We are very open to work with reputable Cosmos validators, but if you are experienced in other types of popular blockchain networks, it is acceptable.
 Additionally, there can be exception if the validator is either:
@@ -96,7 +96,8 @@ All validators are welcome to contribute in promoting and governing the Aura Net
 ### 2.5. Rewards
 
 There are several benefits to validators participating in the IVP:
-- **Compensation**: For each day running a validator node in the IVP, each validator will receive a reward of 60 Aura Tokens (IDO price: 0.065 USD) on mainnet. This amount is calculated by the Aura team, taking into consideration the valuation of the project, average spending for infrastructure and recommendations from various partners. The compensation amount is taken from the ecosystem growth fund. These tokens will be directly credited to genesis validators and bonded in the genesis block of Aura mainnet.
+- **Compensation**: For each day running a validator node in the IVP, each validator will receive a reward of 60 Aura Tokens (IDO price: 0.065 USD) on mainnet. This amount is calculated by the Aura team, taking into consideration the valuation of the project, average spending for infrastructure and recommendations from various partners. The compensation amount is taken from the ecosystem growth fund. These tokens will be directly credited to genesis validators and bonded in the genesis block of Aura mainnet. 
+- **Exception**: However, as we cannot give or sell tokens to US and mainland China, validators coming from these 2 countries will not receive IVP compensation. Instead, they will receive an equal amount of tokens to the IVP rewards with the purpose of bootstraping their nodes into the genesis set and self-bonding only. If later on they decide to leave the network these validators must return the initial bootstrap tokens to the eco growth fund.
 - **Guarantee Genesis Validator slot**: All validators who complete the IVP will be included in the genesis block of Aura mainnet.
 - **Chance to get delegation from Aura Network partners**: The Aura team will send all validator information and their contribution to the IVP to all Aura partners who own Aura tokens from strategic and private rounds. We will also recommend partners to choose several validators to delegate at the beginning of the mainnet phase to ensure decentralization.
 
