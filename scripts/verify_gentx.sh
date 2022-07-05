@@ -64,8 +64,6 @@ else
     cd aura
     git checkout euphoria
     make build
-    mkdir build
-    mv aurad ./build/
     chmod +x ./build/aurad
     
     ./build/aurad keys add $RANDOM_KEY --keyring-backend test --home $AURA_HOME
