@@ -2,7 +2,7 @@
 CHAIN_ID=euphoria-1
 AURA_HOME="/tmp/aurad$(date +%s)"
 RANDOM_KEY="randomvalidatorkey"
-DENOM=euaura
+DENOM=ueaura
 MAXBOND=3600000000 # 3600 Aura
 MINCOMMISSION="0.05"
 
