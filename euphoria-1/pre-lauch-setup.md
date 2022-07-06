@@ -29,7 +29,7 @@ Below are the instructions to generate your genesis transaction.
 5. Create the gentx, replace `<key-name>`:
 
    ```bash
-   aurad gentx <key-name> 10000000000uaura [flags] --chain-id euphoria-1
+   aurad gentx <key-name> 3600000000ueaura [flags] --chain-id euphoria-1
    ```
    Flags:
    ```
@@ -43,7 +43,7 @@ Below are the instructions to generate your genesis transaction.
    ```
    Example:
    ```bash
-   aurad gentx aura-wallet 10000000000uaura --commission-rate 0.05 --commission-max-rate 0.1 --commission-max-change-rate 0.01 --min-self-delegation 1000000uaura --moniker "aura-validator" --details "The aura validator details" --website "https://aura.network"  
+   aurad gentx aura-wallet 3600000000ueaura --commission-rate 0.05 --commission-max-rate 0.1 --commission-max-change-rate 0.01 --min-self-delegation 1000000uaura --moniker "aura-validator" --details "The aura validator details" --website "https://aura.network"  
    ```
 
    If all goes well, you will see a message similar to the following:
