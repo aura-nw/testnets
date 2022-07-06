@@ -67,10 +67,10 @@ $DAEMON_HOME/cosmovisor/genesis/bin/aurad version
 
 ```sh
 rm ~/.aura/config/genesis.json
-wget <genesis_link>
-tar -xvf aura-upgrade-genesis.tar.gz -C $HOME/.aura/config
+wget https://github.com/aura-nw/testnets/raw/main/serenity-testnet-001/6-July-upgrade/state.tar.gz
+tar -xzvf state -C $HOME/.aura/config
 
-# check chain is serenity-testnet-001, genesis time is correct & initial block is ?
+# check chain is serenity-testnet-001, genesis time is correct & initial block is 1255138
 cat $HOME/.aura/config/genesis.json | jq '"Genesis Time: " + .genesis_time + " — Chain ID: " + .chain_id + " - Initial Height: " + .initial_height'
 ```
 
