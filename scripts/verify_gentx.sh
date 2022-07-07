@@ -3,11 +3,11 @@ CHAIN_ID=euphoria-1
 AURA_HOME="/tmp/aurad$(date +%s)"
 RANDOM_KEY="randomvalidatorkey"
 DENOM=ueaura
-MAXBOND=3600000000 # 3600 Aura
+MAXBOND=3600000000 # 3600 eaura
 MINCOMMISSION="0.05"
 
-GENTX_SUBMISSION_START=$(date -u -d '2022-07-1T00:00:00.000Z' +'%s')
-GENTX_SUBMISSION_DEADLINE=$(date -u -d '2022-07-9T00:00:00.000Z' +'%s')
+GENTX_SUBMISSION_START=$(date -u -d '2022-07-07T12:00:00.000Z' +'%s')
+GENTX_SUBMISSION_DEADLINE=$(date -u -d '2022-07-11T02:00:00.000Z' +'%s')
 
 now=$(date -u +'%s')
 
@@ -47,8 +47,8 @@ else
 
     amount=$(jq -r '.body.messages[0].value.amount' $GENTX_FILE)
 
-    if [ $amount -gt $MAXBOND ]; then
-        echo "bonded amount is too high: $amt > $MAXBOND"
+    if [ $amount -eq $MAXBOND ]; then
+        echo "bonded amount is different with 3600eaura: $amt != $MAXBOND"
         exit 1
     fi
 
