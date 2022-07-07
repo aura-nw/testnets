@@ -47,7 +47,7 @@ else
 
     amount=$(jq -r '.body.messages[0].value.amount' $GENTX_FILE)
 
-    if [ $amount -eq $MAXBOND ]; then
+    if [ $amount -ne $MAXBOND ]; then
         echo "bonded amount is different with 3600eaura: $amt != $MAXBOND"
         exit 1
     fi
