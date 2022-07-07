@@ -23,12 +23,13 @@ Below are the instructions to generate your genesis transaction.
 4. Download the pre-genesis file:
 
    ```bash
-   curl -s <TBA> >~/.aurad/config/genesis.json
+   curl -s https://raw.githubusercontent.com/aura-nw/testnets/main/euphoria-1/pre-genesis.json >~/.aurad/config/genesis.json
    ```
 
 5. Create the gentx, replace `<key-name>`:
 
    ```bash
+   aurad add-genesis-account <key-name> 3600000000ueaura
    aurad gentx <key-name> 3600000000ueaura [flags] --chain-id euphoria-1
    ```
    Flags:
