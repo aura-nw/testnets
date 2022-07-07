@@ -4,8 +4,15 @@ Below are the instructions to generate your genesis transaction.
 
 ## Generate genesis transaction (pre-launch only)
 
-1. Download the lastest **Euphoria** release from [aurad repo](https://github.com/aura-nw/aura) and run `make` to build the source.
-
+1. Download the lastest **Euphoria** pre-release from [aurad repo](https://github.com/aura-nw/aura) and run `make` to build the source.
+   Or clone source code from the repo
+   ```bash
+   git clone https://github.com/aura-nw/aura
+   cd aura
+   git checkout euphoria
+   make
+   ```
+   
 2. Initialize the  directories and create the local genesis file with the correct
    chain-id
 
@@ -27,11 +34,13 @@ Below are the instructions to generate your genesis transaction.
    ```
 
 5. Create the gentx, replace `<key-name>`:
-
+   The nubmer of bonded tokens must be 3600eaura
+   
    ```bash
    aurad add-genesis-account <key-name> 3600000000ueaura
    aurad gentx <key-name> 3600000000ueaura [flags] --chain-id euphoria-1
    ```
+   
    Flags:
    ```
    --commission-rate                   The initial commission rate percentage
