@@ -34,7 +34,7 @@ Below are the instructions to generate your genesis transaction.
    ```
 
 5. Create the gentx, replace `<key-name>`:
-6. 
+
    The number of bonded tokens must be 3600eaura
    
    ```bash
