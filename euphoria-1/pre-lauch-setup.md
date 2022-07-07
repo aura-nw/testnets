@@ -88,7 +88,7 @@ Sample PR: [Link](https://github.com/aura-nw/testnets/pull/4)
 1. Download genesis:
 
    ```bash
-   curl -s <TBA> >~/.aurad/config/genesis.json
+   curl -s <TBA> >~/.aura/config/genesis.json
    ```
 2. Setup your nodes and services
 
