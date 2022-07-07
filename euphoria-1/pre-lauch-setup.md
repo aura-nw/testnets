@@ -64,6 +64,7 @@ Below are the instructions to generate your genesis transaction.
    ```
 
 ## Submit gentx and logo
+**NOTE**: Deadline for the submission is **July 11th at 9:00 UTC+7**
 
 1. Fork this repository 
 
