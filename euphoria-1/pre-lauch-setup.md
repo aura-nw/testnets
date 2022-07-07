@@ -34,7 +34,8 @@ Below are the instructions to generate your genesis transaction.
    ```
 
 5. Create the gentx, replace `<key-name>`:
-   The nubmer of bonded tokens must be 3600eaura
+6. 
+   The number of bonded tokens must be 3600eaura
    
    ```bash
    aurad add-genesis-account <key-name> 3600000000ueaura
