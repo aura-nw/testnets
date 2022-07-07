@@ -30,7 +30,7 @@ Below are the instructions to generate your genesis transaction.
 4. Download the pre-genesis file:
 
    ```bash
-   curl -s https://raw.githubusercontent.com/aura-nw/testnets/main/euphoria-1/pre-genesis.json >~/.aurad/config/genesis.json
+   curl -s https://raw.githubusercontent.com/aura-nw/testnets/main/euphoria-1/pre-genesis.json >~/.aura/config/genesis.json
    ```
 
 5. Create the gentx, replace `<key-name>`:
