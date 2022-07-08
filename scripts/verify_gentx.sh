@@ -47,7 +47,7 @@ else
 
     amount=$(jq -r '.body.messages[0].value.amount' $GENTX_FILE)
 
-    if [ $amount -eq $MAXBOND ]; then
+    if [ $amount -ne $MAXBOND ]; then
         echo "bonded amount is different with 3600eaura: $amt != $MAXBOND"
         exit 1
     fi
@@ -75,7 +75,7 @@ else
     # rm -rf $AURA_HOME/config/genesis.json
     # curl -s https://raw.githubusercontent.com/aura-nw/testnets/main/$CHAIN_ID/pre-genesis.json >$AURA_HOME/config/genesis.json
 
-    sed -i "s/\"stake\"/\"euaura\"/g" $AURA_HOME/config/genesis.json
+    sed -i "s/\"stake\"/\"ueaura\"/g" $AURA_HOME/config/genesis.json
     
     GENACC=$(jq -r '.body.messages[0].delegator_address' ../$GENTX_FILE)
 
