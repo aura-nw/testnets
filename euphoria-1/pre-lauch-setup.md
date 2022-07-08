@@ -47,16 +47,18 @@ Below are the instructions to generate your genesis transaction.
    Flags:
    ```
    --commission-rate                   The initial commission rate percentage (Minimum 5%)
-   --commission-max-rate               The maximum commission rate percentage (Perminate once set)
-   --commission-max-change-rate        The maximum commission change rate percentage (per day)(Perminate once set)
+   --commission-max-rate               The maximum commission rate percentage (Permanent once set)
+   --commission-max-change-rate        The maximum commission change rate percentage (per day)(Permanent once set)
    --min-self-delegation               The minimum self delegation required on the validator
    --moniker                           The validator's moniker
    --details                           The validator's details
    --website                           The validator's website
+   --security-contact                  The validators email address
+   --identity                          The validators keybase.io pgp id
    ```
    Example:
    ```bash
-   aurad gentx aura-wallet 3600000000ueaura \
+   aurad gentx KEY-NAME 3600000000ueaura \
    --commission-rate 0.05 \
    --commission-max-rate 0.1 \
    --commission-max-change-rate 0.01 \
