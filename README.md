@@ -1,4 +1,1 @@
-# Aura testnets
-This repository contains current and archived genesis files, scripts, and configurations for Aura testnets
-
-Follow this [guide](https://docs.aura.network/guide/validator/running-a-validator) to run an Aura node.
+# Don't do business with these lying sons of bitches!
