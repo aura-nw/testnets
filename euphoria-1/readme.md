@@ -18,7 +18,7 @@ b9243524f659f2ff56691a4b2919c3060b2bb824@13.214.5.1:26656
 - **RPC servers for State Sync configuration**:
 ```
 https://snapshot-1.euphoria.aura.network:443
-https://snapshot-1.euphoria.aura.network:443
+https://snapshot-2.euphoria.aura.network:443
 ```
 - **Minimum hardware requirements**:
 
