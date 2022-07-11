@@ -1,8 +1,8 @@
 account,address,percent,Base,Extra,TGE amount,TGE percent,vesting-amount(eaura),vesting-time(s),cliff-time(s),cliff-amount(eaura),vesting-start-time(timestamp),period-length(s)
-ecosystem_growth,aura1gr5unjftq7s983uhxe9csumgqsn828lkv5g0mt,20,200000000,201600,199798400,0.5,100000000,63072000,0,0,1657677600,86400
+ecosystem_growth,aura1gr5unjftq7s983uhxe9csumgqsn828lkv5g0mt,20,200000000,201600,99798400,0.5,100000000,63072000,0,0,1657677600,86400
 private_sale,aura17dxzf8rwj4gypgd57nglyrr3unrpd89j38fe9m,5,50000000,0,0,0.0,50000000,63072000,0,0,1657677600,86400
 strategic,aura1pt59a87l2a9s69y0xgdev8m9n9rmtat2saylge,10,100000000,0,0,0.0,100000000,63072000,0,0,1657677600,86400
 foundation_reserve,aura1h9ckdkrca4xp95nxemaxs4m6y8jqtt52eyv7je,10,100000000,0,0,0.0,100000000,63072000,0,0,1657677600,86400
 team,aura1rrvr8jx4tzhqw923a0ksgl8k778c9htvvu5nun,20,200000000,0,0,0.0,200000000,126144000,31536000,50000000,1657677600,86400
-public_distribution,aura1n5zqsfy47wmk8j476cf2244rfvrgvkwf6qeaeh,5,50000000,0,100,1.0,0,0,0,0,1657677600,86400
+public_distribution,aura1n5zqsfy47wmk8j476cf2244rfvrgvkwf6qeaeh,5,50000000,0,50000000,1.0,0,0,0,0,1657677600,86400
 strategic-reserve,aura1lmrz07509hyjgdvpk0xn8sna9e8m8zy5yvqumw,5,50000000,0,0,0.0,50000000,63072000,0,0,1657677600,86400
