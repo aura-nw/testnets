@@ -4,6 +4,7 @@
 - **Denom**:
     - Base: `ueaura`
     - Display: `eaura`
+    - Exponent: 6
 - **Genesis File:** `https://raw.githubusercontent.com/aura-nw/testnets/main/euphoria-1/genesis.json`
 - **Block Explorer**: `xxx`
 - **Public Endpoints**:
