@@ -6,7 +6,7 @@
     - Display: `eaura`
     - Exponent: 6
 - **Genesis File:** `https://raw.githubusercontent.com/aura-nw/testnets/main/euphoria-1/genesis.json`
-- **Block Explorer**: `xxx`
+- **Block Explorer**: `https://euphoria.aurascan.io`
 - **Public Endpoints**:
   - LCD: `https://lcd.euphoria.aura.network`
   - RPC:`https://rpc.euphoria.aura.network`
