@@ -18,9 +18,9 @@ make build
 # returns euphoria_v0.3.0
 ```
 
-## Manually upgrade
+## Manually upgrade after network halts
 
-Euphoria network will halt after reach block 702290. After that, follow steps bellow to upgrade:
+Euphoria network will halt after reaches block 702290. After that, follow steps bellow to upgrade:
 - Stop aurad service
 - Replace the current aurad with the new one
 - Start the aurad service
