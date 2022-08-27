@@ -36,4 +36,4 @@ mkdir -p $DAEMON_HOME/cosmovisor/upgrades/v0.3.0/bin
 cp ./build/aurad $DAEMON_HOME/cosmovisor/upgrades/v0.3.0/bin
 ```
 
-Cosmovisor will automatically replace the `aurad` when the network reach block 702290.
+Cosmovisor will automatically replace the `aurad` when the network reaches block 702290.
