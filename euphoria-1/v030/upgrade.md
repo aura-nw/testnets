@@ -17,15 +17,18 @@ make build
 ./build/aurad version
 # returns euphoria_v0.3.0
 ```
+## Upgrade
 
-## Manually upgrade after network halts
+There are 2 ways to upgrade aurad: manually and automatically
+
+### Manually upgrade after network halts
 
 Euphoria network will halt after reaches block 702290. After that, follow steps bellow to upgrade:
 - Stop aurad service
 - Replace the current aurad with the new one
 - Start the aurad service
 
-## Automatic upgrade with cosmovisor
+### Automatic upgrade with cosmovisor
 - Set up cosmovisor: https://docs.aura.network/validator/setting-up-cosmovisor
 - Make an upgrade folder:
 ```
