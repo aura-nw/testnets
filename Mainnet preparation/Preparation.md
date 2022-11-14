@@ -9,6 +9,7 @@
 - *Canary network EUPHORIA-2 launch*
 - *Introduction of Aura Foundation Delegation Program*
 - *Mainnet preparation checklist*
+- *Feedback [here](https://github.com/orgs/aura-nw/discussions)*
 
 ## Table of Contents
 - [Validator Call: Preparation for Xstaxy Mainnet](#validator-call--preparation-for-xstaxy-mainnet)
