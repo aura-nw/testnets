@@ -32,7 +32,7 @@ Aura Network hosted the [***“Master of Nodes”***](https://insight.aura.netwo
 
 The top 30 validators from the game are divided into 4 ranking tiers based on their total points. From the top: Grand Master, Master, Arcanist, Seer. Each validator will receive one Account-bound Token (non-transferable NFT), or in short ***ABT***, depending on their ranking tier. Aura Account-bound Token is implemented in CosmWasm, following CW-4973 standard (inspired by [EIP-4973](https://eips.ethereum.org/EIPS/eip-4973)). Validators owning this token will be able to “equip” it to show on their validator profile on Aurascan. Sample below.
 
-![Account-bound token sample](./img/...)
+![Account-bound token sample](./Account-bound-sample.png)
 
 The Account Bound Token feature is to award validators who have special contributions to Aura Network as well as participating in various campaigns. Other special events and achievements will also be issued under this form.
 
@@ -70,7 +70,7 @@ There are some steps for validators to receive Aura tokens from IVP and continui
 
 ## Foundation Delegation Program
 
-We also introduce the draft of the Aura Foundation Delegation Program for validator feedback [***HERE***](https://github.com/aura-nw/mainnet-artifacts/blob/main/Foundation-delegation-program/README.md)
+We also introduce the draft of the Aura Foundation Delegation Program for validator feedback [***HERE***](https://github.com/aura-nw/mainnet-artifacts/blob/main/Foundation-delegation-program/README.md).
 
 Please be noted that this is a DRAFT version of the program, it is recommended for every validator to read and feedback.
 
