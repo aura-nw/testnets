@@ -10,7 +10,20 @@
 - *Introduction of Aura Foundation Delegation Program*
 - *Mainnet preparation checklist*
 
-## Context
+## Table of Contents
+- [Validator Call: Preparation for Xstaxy Mainnet](#validator-call--preparation-for-xstaxy-mainnet)
+  * [1. Context](#1-context)
+  * [2. Euphoria Validator Program result](#2-euphoria-validator-program-result)
+    + [Master of Node result](#master-of-node-result)
+    + [IVP rewards](#ivp-rewards)
+  * [3. Euphoria-2 canary network introduction](#3-euphoria-2-canary-network-introduction)
+  * [4. Distributing IVP Rewards](#4-distributing-ivp-rewards)
+  * [5. Foundation Delegation Program](#5-foundation-delegation-program)
+  * [6. Mainnet Checklist](#6-mainnet-checklist)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+## 1. Context
 
 Aura Network has been continuously building since Q4 2021, there have been 3 successful testnet launches: Halo, Serenity and Euphoria. At the same time, the BEP-20 $Aura token was released on BNB Chain and got positive feedback from the community. It is time for Aura Network to move to the next major milestone: **mainnet** launch, code name: ***Xstaxy***. 
 
@@ -22,7 +35,7 @@ As BEP-20 Aura token is already distributed, the mainnet launch is not simply ju
 
 This document provides a detailed plan for the Aura Network community to follow to prepare for Xstaxy. However, in case you have any suggestion on the plan, please feel free to submit your idea on our Github discussion [forum](https://github.com/orgs/aura-nw/discussions).
 
-## Euphoria Validator Program result
+## 2. Euphoria Validator Program result
 
 Going live from July 13th 2022, the Euphoria network is a staging environment for application development on Aura Network. We also introduced our incentive program for Euphoria validators and got amazing support from more than 50 reputable validators. 
 
@@ -50,7 +63,7 @@ Beside BEP-20 $AURA, each validator staying the IVP until the end will receive a
 
 *Validators can find the link to the registration form to receive rewards in the email they used to register for the Euphoria IVP.*
 
-## Euphoria-2 canary network introduction
+## 3. Euphoria-2 canary network introduction
 
 As our [previous discussion](https://github.com/orgs/aura-nw/discussions/1), Aura is moving towards a *permissioned smart contract platform* where every contract deployed on Xstaxy is open source. Thus, even after the IVP, we still want to keep Euphoria running with a certain number of validators so that we can continue testing new features and verify smart contracts before allowing them to be deployed on mainnet.
 
@@ -61,20 +74,20 @@ For this reason, we introduce **Euphoria-2**, the official staging/canary networ
 
 **NOTE**: Information related to launch Euphoria-2 will be announced in Discord Euphoria Validator channel.
 
-## Distributing IVP Rewards
+## 4. Distributing IVP Rewards
 
 There are some steps for validators to receive Aura tokens from IVP and continuing with Euphoria-2:
 - Fill in the form attached to an email you receive from us (for safety, we will only accept forms from these emails)
 - Vote for a proposal to reduce the validator set after we know how many validators want to stay.
 - Unbond EAURA tokens to remove your validator if you do not run Euphoria-2 and please send back those test tokens to the Euphoria Token Faucet at: [aura1n5zqsfy47wmk8j476cf2244rfvrgvkwf6qeaeh](https://euphoria.aurascan.io/account/aura1n5zqsfy47wmk8j476cf2244rfvrgvkwf6qeaeh)
 
-## Foundation Delegation Program
+## 5. Foundation Delegation Program
 
 We also introduce the draft of the Aura Foundation Delegation Program for validator feedback [***HERE***](https://github.com/aura-nw/mainnet-artifacts/blob/main/Foundation-delegation-program/README.md).
 
 Please be noted that this is a DRAFT version of the program, it is recommended for every validator to read and feedback.
 
-## Mainnet Checklist
+## 6. Mainnet Checklist
 
 Mainnet Date: TBA
 
