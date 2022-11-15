@@ -64,6 +64,8 @@ Beside BEP-20 $AURA, each validator staying the IVP until the end will receive a
 
 *Validators can find the link to the registration form to receive rewards in the email they used to register for the Euphoria IVP.*
 
+**NOTE**: Before launching Xstaxy, if a validator has second thoughts and decides to not become a genesis validator anymore, he can contact Aura team to withdraw all IVP rewards.  
+
 ## 3. Euphoria-2 canary network introduction
 
 As our [previous discussion](https://github.com/orgs/aura-nw/discussions/1), Aura is moving towards a *permissioned smart contract platform* where every contract deployed on Xstaxy is open source. Thus, even after the IVP, we still want to keep Euphoria running with a certain number of validators so that we can continue testing new features and verify smart contracts before allowing them to be deployed on mainnet.
