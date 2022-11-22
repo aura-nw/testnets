@@ -1,6 +1,6 @@
 # Guide to launch Euphoria-2
 
-We are forking Euphoria-2 from Euphoria-1 at block height 2000000.
+We are forking Euphoria-2 from Euphoria-1 at block height **2000000**.
 
 For validators who choose to not run Euphoria-2, please unbond and send back test tokens to our faucet address.
 
@@ -34,7 +34,7 @@ cp genesis.json $HOME_PATH/config/
 - Vefify genesis information
 ```
 cat $HOME_PATH/config/genesis.json | jq '"Genesis Time: " + .genesis_time + " — Chain ID: " + .chain_id + " - Initial Height: " + .initial_height'
-# "Genesis Time: 2022-11-24T12:00:00Z — Chain ID: euphoria-2 - Initial Height: 2000001"
+# "Genesis Time: 2022-11-25T03:00:00Z — Chain ID: euphoria-2 - Initial Height: 2000001"
 ```
 
 - Stop Euphoria-1, start Euphoria-2 and wait for launch time
