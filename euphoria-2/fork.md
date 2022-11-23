@@ -46,7 +46,7 @@ cat $HOME_PATH/config/genesis.json | jq '"Genesis Time: " + .genesis_time + " â€
 
 - Check sorted shasum
 ```
-jq -S -c -M '' $HOME_PAHT/config/genesis.json | sha256sum
+jq -S -c -M '' $HOME_PATH/config/genesis.json | sha256sum
 # this should return
 # 2b5efb277b7d49a290ea86bc2474c958ea12b9d42fd19da3cf259eb76961ed6c  -
 ```
