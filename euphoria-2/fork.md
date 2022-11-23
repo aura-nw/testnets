@@ -28,7 +28,8 @@ cp .aura/config/config.toml $HOME_PATH/config/
 - Download the Euphoria-2 genesis
 ```
 wget <TBD>
-cp genesis.json $HOME_PATH/config/
+tar -xzvf euphoria-2-genesis.tar.gz
+mv euphoria-2-genesis.json $HOME_PATH/config/genesis.json
 ```
 
 - Vefify genesis information
