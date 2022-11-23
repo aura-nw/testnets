@@ -35,7 +35,15 @@ mv euphoria-2-genesis.json $HOME_PATH/config/genesis.json
 - Vefify genesis information
 ```
 cat $HOME_PATH/config/genesis.json | jq '"Genesis Time: " + .genesis_time + " — Chain ID: " + .chain_id + " - Initial Height: " + .initial_height'
+# this should return 
 # "Genesis Time: 2022-11-25T03:00:00Z — Chain ID: euphoria-2 - Initial Height: 2000001"
+```
+
+- Check sorted shasum
+```
+jq -S -c -M '' $HOME_PAHT/config/genesis.json | sha256sum
+# this should return
+# 2b5efb277b7d49a290ea86bc2474c958ea12b9d42fd19da3cf259eb76961ed6c  -
 ```
 
 - Stop Euphoria-1, start Euphoria-2 and wait for launch time
