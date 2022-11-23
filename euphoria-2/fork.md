@@ -25,6 +25,11 @@ cp .aura/config/app.toml $HOME_PATH/config/
 cp .aura/config/config.toml $HOME_PATH/config/
 ```
 
+- Copy and replace `priv_validator_key.json` of your validator from Euphoria-1 to Euphoria-2
+```
+cp .aura/config/priv_validator_key.json $HOME_PATH/config/
+```
+
 - Download the Euphoria-2 genesis
 ```
 wget https://github.com/aura-nw/testnets/raw/main/euphoria-2/euphoria-2-genesis.tar.gz
