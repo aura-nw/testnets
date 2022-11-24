@@ -11,6 +11,8 @@ For those who want to support Euphoria-2, please follow steps below:
 - Download the latest Aura daemon
 ```
 git clone --branch euphoria_v0.4.1 https://github.com/aura-nw/aura
+cd aura
+make build
 ```
 
 - Init the Euphoria-2 home folder
