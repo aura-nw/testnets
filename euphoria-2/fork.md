@@ -8,14 +8,16 @@ For those who want to support Euphoria-2, please follow steps below:
 
 `Note`: To ensure the down time as little as possible, validators should init Euphoria-2 on the new machine, or on the same machine with Euphoria-1 but different home directory
 
-- Download the latest Aura daemon
+- Download the latest Aura daemon and compile it
 ```
 git clone --branch euphoria_v0.4.1 https://github.com/aura-nw/aura
+cd aura
+make install
 ```
 
 - Init the Euphoria-2 home folder
 ```
-export $HOME_PATH=<Euphoria-2 directory>
+export HOME_PATH=<Euphoria-2 directory>
 aurad init <moniker> --home $HOME_PATH
 ```
 
