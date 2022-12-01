@@ -12,7 +12,7 @@ For those who want to support Euphoria-2, please follow steps below:
 ```
 git clone --branch euphoria_v0.4.1 https://github.com/aura-nw/aura
 cd aura
-make build
+make
 ```
 
 - Init the Euphoria-2 home folder
