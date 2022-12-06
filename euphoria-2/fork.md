@@ -57,3 +57,26 @@ jq -S -c -M '' $HOME_PATH/config/genesis.json | sha256sum
 ```
 aurad start --home $HOME_PATH
 ```
+
+- You can also add a service launch
+```
+sudo tee /etc/systemd/system/aurad.service > /dev/null <<EOF
+[Unit]
+Description=aurad
+After=network-online.target
+
+[Service]
+User=$USER
+ExecStart=$(which aurad) start
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+sudo systemctl daemon-reload && \
+sudo systemctl enable aurad && \
+sudo systemctl restart aurad && sudo journalctl -u aurad -f -o cat
+```
