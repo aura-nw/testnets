@@ -30,7 +30,7 @@ After that, follow steps bellow to upgrade:
 - Replace the current aurad with the new one
 - Remove wasm cache folder
 ```
-rm -r <aurad node home>/wasm/wasm/cache
+rm -r <aurad node home>/wasm/wasm/cache/
 # replace with the location you setup aurad
 ```
 - Start the aurad service
