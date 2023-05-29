@@ -10,10 +10,10 @@
 - **Public Endpoints**:
   - LCD: `https://lcd.euphoria.aura.network`
   - RPC:`https://rpc.euphoria.aura.network`
+  - GRPC: `http://grpc.euphoria.aura.network:9090`
 - **Seeds**:
 ```
-705e3c2b2b554586976ed88bb27f68e4c4176a33@13.250.223.114:26656
-b9243524f659f2ff56691a4b2919c3060b2bb824@13.214.5.1:26656
+705e3c2b2b554586976ed88bb27f68e4c4176a33@52.76.203.126:26656
 ```
 - **RPC servers for State Sync configuration**:
 ```
