@@ -6,6 +6,7 @@
     - Display: `eaura`
     - Exponent: 6
 - **Genesis File:** `https://github.com/aura-nw/testnets/raw/main/euphoria-2/euphoria-2-genesis.tar.gz`
+- wget -c https://github.com/aura-nw/testnets/raw/main/euphoria-2/euphoria-2-genesis.tar.gz -O - | tar -xz -C $HOME/.aura/config
 - **Block Explorer**: `https://euphoria.aurascan.io`
 - **Public Endpoints**:
   - LCD: `https://lcd.euphoria.aura.network`
