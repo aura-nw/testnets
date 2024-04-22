@@ -53,7 +53,7 @@ mv aura_6321-3-genesis.json $HOME/config/genesis.json
 # Verify genesis info
 cat $HOME/.aura/config/genesis.json | jq '"Genesis Time: " + .genesis_time + " — Chain ID: " + .chain_id + " - Initial Height: " + .initial_height'
 # this should return
-# "Genesis Time: 2024-04-23T15:00:00Z — Chain ID: aura_6321-3 - Initial Height: 9993422"
+# "Genesis Time: 2024-04-23T14:00:00Z — Chain ID: aura_6321-3 - Initial Height: 9993422"
 
 # Verify sorted shasum
 jq -S -c -M '' $HOME/.aura/config/genesis.json | sha256sum
