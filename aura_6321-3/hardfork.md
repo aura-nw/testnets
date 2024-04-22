@@ -6,7 +6,7 @@ These are processes need to be done for this upgrade.
 
 ## Relayer
 
-Since updating chain-id would break IBC client states, we need to perform the upgrade for client on every conterparty chains.
+Since updating chain-id would break IBC client states, we need to perform the upgrade for client on every counterparty chains.
 
 Relayers **MUST RUN** this command before the upgrade block **9993422**
 
