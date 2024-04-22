@@ -11,12 +11,12 @@ Since updating chain-id would break IBC client states, we need to perform the up
 Relayers **MUST RUN** this command before the upgrade block **9993422**
 
 ```
-hermes upgrade client --host-chain <<chain-id>> --client <<client-id>> --upgrade-height **9993422**
+hermes upgrade client --host-chain <<chain-id>> --client <<client-id>> --upgrade-height 9993422
 ```
 
 Example: Update Nois client 
 ```
-hermes upgrade client --host-chain nois-testnet-005 --client 07-tendermint-46 --upgrade-height **9993422**
+hermes upgrade client --host-chain nois-testnet-005 --client 07-tendermint-46 --upgrade-height 9993422
 ```
 This command will check consecutively until Aura chain reachs the upgrade block and halts, then submit an upgrade ibc client transsaction to Nois chain.
 
