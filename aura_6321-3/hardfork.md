@@ -18,7 +18,7 @@ Example: Update Nois client
 ```
 hermes upgrade client --host-chain nois-testnet-005 --client 07-tendermint-46 --upgrade-height 9993422
 ```
-This command will check consecutively until Aura chain reachs the upgrade block and halts, then submit an upgrade ibc client transsaction to Nois chain.
+This command will check consecutively until Aura chain reachs the upgrade block and halts, then submit an upgrade ibc client transaction to Nois chain.
 
 ## Validators and Full nodes
 
