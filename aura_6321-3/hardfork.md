@@ -46,19 +46,19 @@ rm -r $HOME/.aura/wasm
 ```
 6. Download new genesis file
 ```
-wget << TBA >>
+wget https://aura-network.s3.ap-southeast-1.amazonaws.com/aura_6321-3-genesis.tar.gz
 tar -xzvf aura_6321-3-genesis.tar.gz
 mv aura_6321-3-genesis.json $HOME/config/genesis.json
 
 # Verify genesis info
 cat $HOME/.aura/config/genesis.json | jq '"Genesis Time: " + .genesis_time + " — Chain ID: " + .chain_id + " - Initial Height: " + .initial_height'
 # this should return
-# "Genesis Time: 2024-04-23T13:30:00Z — Chain ID: aura_6321-3 - Initial Height: 9993422"
+# "Genesis Time: 2024-04-23T13:30:00Z — Chain ID: aura_6321-3 - Initial Height: 9993651"
 
 # Verify sorted shasum
 jq -S -c -M '' $HOME/.aura/config/genesis.json | sha256sum
 # this should return
-# TBA  -
+# 26311ac3110258d26f8999b92c06f3d3a9588fef2224197a9e6d04a0354eee5e  -
 ```
 7. Start aurad service
 ```

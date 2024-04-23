@@ -5,7 +5,7 @@
     - Base: `ueaura`
     - Display: `eaura`
     - Exponent: 6
-- **Genesis File:** TBA
+- **Genesis File:** `https://aura-network.s3.ap-southeast-1.amazonaws.com/aura_6321-3-genesis.tar.gz`
 - **Block Explorer**: `https://euphoria.aurascan.io`
 - **Public Endpoints**:
   - LCD: `https://lcd.euphoria.aura.network`
