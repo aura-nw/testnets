@@ -1,5 +1,5 @@
 # Network Information
-- **Launch date**: 2024-04-23T14:00:00Z
+- **Launch date**: 2024-04-23T13:30:00Z
 - **Chain-ID**: `aura_6321-3`
 - **Denom**:
     - Base: `ueaura`
