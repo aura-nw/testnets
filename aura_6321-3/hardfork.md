@@ -48,7 +48,7 @@ rm -r $HOME/.aura/wasm
 ```
 wget https://aura-network.s3.ap-southeast-1.amazonaws.com/aura_6321-3-genesis.tar.gz
 tar -xzvf aura_6321-3-genesis.tar.gz
-mv aura_6321-3-genesis.json $HOME/config/genesis.json
+mv aura_6321-3-genesis.json $HOME/.aura/config/genesis.json
 
 # Verify genesis info
 cat $HOME/.aura/config/genesis.json | jq '"Genesis Time: " + .genesis_time + " — Chain ID: " + .chain_id + " - Initial Height: " + .initial_height'
