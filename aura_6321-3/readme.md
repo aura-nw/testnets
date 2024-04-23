@@ -17,7 +17,7 @@
 ```
 - **RPC servers for State Sync configuration**:
 ```
-https://lcd.euphoria.aura.network:443
+https://rpc.euphoria.aura.network:443
 ```
 - **Minimum hardware requirements**:
 
