@@ -46,7 +46,7 @@ rm -r $HOME/.aura/wasm
 ```
 6. Download new genesis file
 ```
-wget https://aura-network.s3.ap-southeast-1.amazonaws.com/aura_6321-3-genesis.tar.gz
+wget https://images.aura.network/aura_6321-3-genesis.tar.gz
 tar -xzvf aura_6321-3-genesis.tar.gz
 mv aura_6321-3-genesis.json $HOME/.aura/config/genesis.json
 

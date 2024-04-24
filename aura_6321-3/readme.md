@@ -5,11 +5,12 @@
     - Base: `ueaura`
     - Display: `eaura`
     - Exponent: 6
-- **Genesis File:** `https://aura-network.s3.ap-southeast-1.amazonaws.com/aura_6321-3-genesis.tar.gz`
+- **Genesis File:** `https://images.aura.network/aura_6321-3-genesis.tar.gz`
 - **Block Explorer**: `https://euphoria.aurascan.io`
 - **Public Endpoints**:
   - LCD: `https://lcd.euphoria.aura.network`
   - RPC:`https://rpc.euphoria.aura.network`
+  - JSONRPC: `https://jsonrpc.euphoria.aura.network`
   - GRPC: `http://grpc.euphoria.aura.network:9090`
 - **Seeds**:
 ```
@@ -23,5 +24,5 @@ https://rpc.euphoria.aura.network:443
 
 | Node Type  | RAM  | Storage  | 
 |------------|------|----------|
-| Validator  | 16GB | 500GB    |
-| Full       | 16GB  | 500GB    |  
+| Validator  | 32GB | 500GB    |
+| Full       | 32GB  | 500GB    |  
