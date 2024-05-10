@@ -24,5 +24,5 @@ https://rpc.euphoria.aura.network:443
 
 | Node Type  | RAM  | Storage  | 
 |------------|------|----------|
-| Validator  | 32GB | 500GB    |
-| Full       | 32GB  | 500GB    |  
+| Validator  | 16GB | 500GB    |
+| Full       | 16GB  | 500GB    |  
