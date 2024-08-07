@@ -41,7 +41,7 @@ There are 2 ways to upgrade aurad: manually and automatically
 
 ### Manually upgrade after network halts
 
-Euphoria network will halt after reaches block **11,680,152**, estimated at **August 9 2024, 13:00 UTC**.
+Euphoria network will halt after reaches block **11,679,220**, estimated at **August 9 2024, 13:00 UTC**.
 
 After that, follow steps bellow to upgrade:
 - Stop aurad service
@@ -59,4 +59,4 @@ mkdir -p $DAEMON_HOME/cosmovisor/upgrades/v0.9.3/bin
 cp ./build/aurad $DAEMON_HOME/cosmovisor/upgrades/v0.9.3/bin
 ```
 
-Cosmovisor will automatically replace the `aurad` when the network reaches block **11,680,152**.
+Cosmovisor will automatically replace the `aurad` when the network reaches block **11,679,220**.
