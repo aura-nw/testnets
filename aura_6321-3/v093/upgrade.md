@@ -16,7 +16,7 @@ aurad verion
 # returns v0.9.3-euphoria
 
 sha256sum aurad
-# returns e31ad38a729f5fc73c2fead11a1697c68af62e7a9eaf9b29ca32af611cc0f4f9
+# returns e59686a2aa4fe2905357c90996b46c322e1da0220a0533012d1a662c0a174e6c
 ```
 
 ### Build from source
